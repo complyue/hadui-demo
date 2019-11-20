@@ -7,5 +7,5 @@ already.
 curl -L https://github.com/complyue/hadui-demo-stack/archive/master.tar.gz | tar xzf -
 mv hadui-demo-stack-master my-awsome-project
 cd my-awsome-project
-nix-shell --run hadui
+nix-shell --run 'stack build --exec hadui'
 ```
