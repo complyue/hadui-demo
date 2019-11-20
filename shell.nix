@@ -11,5 +11,5 @@ with (import (
 ) { });
 haskellPackages.shellFor {
   packages = p: [ p.zlib ];
-  nativeBuildInputs = [ pkgs.stack pkgs.hadui ];
+  nativeBuildInputs = [ pkgs.stack ];
 }
